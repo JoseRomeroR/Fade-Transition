@@ -52,11 +52,13 @@ public class FadeTransition extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-
+    
+    //Fade start
     private void fadePlay() {
         fadeTransition.play();
        
     }
+    //Fade stop
     private void fadeStop(){
         fadeTransition.stop(
         );
